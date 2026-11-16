@@ -4,8 +4,8 @@
 ## Integrantes
 | Nome completo | RM |
 |---|---|
-| _[NOME COMPLETO 1]_ | _[RM]_ |
-| _[NOME COMPLETO 2]_ | _[RM]_ |
+| Leonardo Takachi | RM:569066 |
+| Giovane Salazar | RM:570396 |
 
 **Vídeo (YouTube, não listado):** _[LINK DO VÍDEO]_
 
