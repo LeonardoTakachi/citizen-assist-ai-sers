@@ -1,0 +1,16 @@
+participante,tarefa,tempo_s,concluiu,usou_menu_ou_texto,travadas,comentario
+P1,T1,74,sim,texto,,"digitou 'banho de 12 min, 4 pessoas' de primeira e respondeu 135 e 88"
+P1,T2,41,sim,texto,,"'ah, então é mais o hábito mesmo'"
+P1,T3,38,sim,menu,,viu a opção 4 no menu e foi direto
+P2,T1,148,sim,texto,escreveu 'doze' por extenso e o assistente perguntou os minutos de novo; parou uns 20 s antes de digitar 12,'mas eu já falei doze'
+P2,T2,97,sim,menu,usou a opção 3; achou o texto comprido; deduziu pela parte da 'casa própria' que não servia para aluguel,
+P2,T3,52,sim,menu,,'esse do CadÚnico eu conheço'
+P3,T1,112,com ajuda,texto,deu R$ 94 como economia (linha do aquecedor solar); acertou depois que pedi para reler a linha do banho curto,"'tem três valores aqui, qual é o meu?'"
+P3,T2,66,sim,texto,,escreveu 'aquecedor solar pra quem mora de aluguel'
+P3,T3,89,sim,texto,escreveu 'minha conta de luz está cara' e o assistente pediu os minutos do banho; voltou e escreveu 'desconto na luz',"'eu perguntei da conta, não do banho'"
+P4,T1,171,com ajuda,menu,disse '132' como valor da conta (confundiu kWh com reais); expliquei que o R$ é o valor em dinheiro,lê devagar e com o dedo na tela
+P4,T2,124,nao,menu,"usou a opção 3 e respondeu 'vale a pena, se paga em 3 a 6 anos'; não percebeu a condição de casa própria",não chegou ao texto sobre aluguel
+P4,T3,71,sim,menu,perguntou o que é CDE,
+P5,T1,58,sim,texto,,digitou '4 pessoas 12 minutos'
+P5,T2,33,sim,texto,,'inquilino pode colocar aquecedor solar?'
+P5,T3,47,sim,texto,"achou o texto da Tarifa Social difícil (meio salário mínimo, CDE, BPC)","'falou distribuidora e CRAS, mas eu teria que ler de novo pra explicar'"

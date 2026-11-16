@@ -1,0 +1,6 @@
+participante,C1,C2,C3,C4,Q1,Q2,Q3,Q4,Q5,o_que_ficou_confuso,o_que_faltou
+P1,certo,certo,certo,certo,5,4,4,4,5,a linha do aquecedor solar no meio do cálculo atrapalha um pouco,deixar a economia do banho curto em destaque
+P2,certo,errado,certo,errado,4,4,5,3,5,o texto do aquecedor é comprido,letra maior; entender número escrito por extenso
+P3,certo,certo,certo,errado,4,3,4,4,4,três valores de economia no mesmo resultado,entender quando a pessoa fala que a conta está cara
+P4,errado,certo,errado,certo,3,2,4,3,4,kWh; não sabia qual número era dinheiro,mostrar só o valor em reais
+P5,certo,certo,certo,certo,4,4,3,5,4,Tarifa Social cheia de sigla,responder primeiro em uma frase se a pessoa tem direito e depois o detalhe

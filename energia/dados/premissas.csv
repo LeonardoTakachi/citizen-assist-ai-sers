@@ -1,0 +1,28 @@
+id,parametro,valor,unidade,tipo,fonte,observacao
+P01,Moradores por domicílio (Brasil),2.79,pessoas,OFICIAL (via imprensa),IBGE Censo 2022 (Metrópoles 28/06/2023),Sudeste: 2.69. Usamos 3 pessoas na família de referência (arredondado)
+P02,Pessoas na família de referência,3,pessoas,PREMISSA,Arredondamento de P01,O usuário pode mudar na calculadora
+P03,Banhos por pessoa por dia,1,banho/dia,PREMISSA,Simplificação; PPH declarado = 1.67 (Chagas PUC-Rio 2015),Conservador: subestima o consumo
+P04,Duração do banho - situação base,10,min,SECUNDÁRIA,Procel estima 8 a 10 min; PPH declarado ~10 min (Chagas PUC-Rio 2015),
+P05,Duração do banho - alternativa A,5,min,SECUNDÁRIA,Sabesp (via Idec): banho de 5 min; média medida ~5 min (Chagas PUC-Rio 2015),
+P06,Potência do chuveiro - posição inverno,5500,W,SECUNDÁRIA,Manuais Lorenzetti Top Jet e Acqua (modelo 127 V 5500 W),Modelo comum; mercado vai de 4500 a 7800 W
+P07,Redução de potência na posição verão,35,%,ESTIMADO,TNH1 24/09/2026: economia de 30% a 40%; usamos o ponto médio,Confirmar no manual do modelo real
+P08,Meses na posição verão (alternativa A),6,meses,PREMISSA,Out-mar (meses quentes em São Paulo),
+P09,Dias por mês,30,dias,PREMISSA,Convenção,
+P10,Tarifa B1 Enel SP sem impostos (TE+TUSD),0.78938,R$/kWh,SECUNDÁRIA,calculakwh.com.br (cita ANEEL REH 3.596 de 03/07/2026; vigência 04/07/2026 a 03/07/2027),Conferir na ANEEL
+P11,Tarifa B1 Enel SP com impostos,1.02,R$/kWh,ESTIMADO,P10 / (1 - 0.23) com ICMS 18% + PIS/COFINS ~5%; apontasol indica R$ 1.0135,Sem bandeira e sem iluminação pública
+P12,Tarifa Social - faixa gratuita,80,kWh/mês,OFICIAL,Lei 15.235/2025 (Câmara dos Deputados); Enel SP página Tarifa Social,Famílias CadÚnico com renda per capita até 1/2 salário mínimo ou BPC; acima de 80 kWh paga o excedente
+P13,Desconto Social - isenção da CDE,120,kWh/mês,OFICIAL,Lei 15.235/2025 (Câmara); Enel SP,Renda per capita entre 1/2 e 1 salário mínimo; desde 01/01/2026
+P14,Fração solar do aquecedor solar,70,%,OFICIAL (norma),NBR 15569 / RTQ-R nível A (via Altoé et al. 2012),Simulação Viçosa: 75.6% a 79.6%; conservador usar 70%
+P15,Custo do aquecedor solar termossifão 150-200 L instalado (mínimo),2300,R$,SECUNDÁRIA,Cronoshare 2026 (equip. R$ 2000-2500 + mão de obra R$ 300-800),
+P16,Custo do aquecedor solar termossifão 150-200 L instalado (máximo),4300,R$,SECUNDÁRIA,Cronoshare 2026; Idec 2025 cita R$ 3000-6000,
+P17,Vida útil dos coletores solares,15 a 25,anos,SECUNDÁRIA,Idec 17/04/2025,Reservatório: 10 a 15 anos
+P18,Payback de referência do aquecedor solar,2 a 7,anos,SECUNDÁRIA,Idec 17/04/2025,Usado só para conferir o nosso cálculo
+P19,Fator de emissão do SIN (média anual 2023),0.0385,tCO2/MWh,OFICIAL (via terceiros),MCTI/SIRENE (citado por eixos 16/02/2024 e TRT15),2022: 0.0426. Conferir valor de 2024/2025 no SIRENE
+P20,Irradiação solar global média - São Paulo,4.59,kWh/m².dia,OFICIAL (antiga),Atlas Brasileiro de Energia Solar INPE 2006 (via Energia Solar Paulista SEE-SP 2013),Inverno 3.78; verão 5.35. Conferir no CRESESB SunData
+P21,Participação do chuveiro no consumo residencial (Sudeste),26,%,OFICIAL (antiga),Procel 2005 (via Chagas PUC-Rio 2015),Média nacional ~24% (Procel/Eletrobras via Altoé et al.)
+P22,Calor específico da água,4186,J/(kg·K),CONSTANTE FÍSICA,Valor de referência da física,Usado só na conferência física (Q = m·c·ΔT)
+P23,Aumento de temperatura da água no banho,20,°C,PREMISSA,Água fria ~20 °C em SP aquecida a ~40 °C (temperatura de uso em Altoé et al. 2012),Usado só na conferência física
+P24,Irradiação média - verão (dez-fev),5.35,kWh/m².dia,OFICIAL (antiga),Atlas INPE 2006 (via SEE-SP 2013),Usada para variar a fração solar por estação
+P25,Irradiação média - outono (mar-mai),3.97,kWh/m².dia,OFICIAL (antiga),Atlas INPE 2006 (via SEE-SP 2013),
+P26,Irradiação média - inverno (jun-ago),3.78,kWh/m².dia,OFICIAL (antiga),Atlas INPE 2006 (via SEE-SP 2013),
+P27,Irradiação média - primavera (set-nov),5.25,kWh/m².dia,OFICIAL (antiga),Atlas INPE 2006 (via SEE-SP 2013),
